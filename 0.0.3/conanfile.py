@@ -3,7 +3,7 @@ import os
 
 class EmeraldConan(ConanFile):
     name = "emerald"
-    version = "0.0.2"
+    version = "0.0.3"
     license = "Apache 2.0"
     url = "https://github.com/blackencino/emerald"
     description = "Emerald Simulation Libraries"
