@@ -50,8 +50,8 @@ class EmeraldConan(ConanFile):
             del self.options.fPIC
 
     def requirements(self):
-        self.options["tbb"].tbbmalloc = True
-        self.options["tbb"].tbbproxy = False
+        #self.options["tbb"].tbbmalloc = True
+        #self.options["tbb"].tbbproxy = False
         self.options["tbb"].shared = False
 
         if self.options.build_guis:
