@@ -3,7 +3,7 @@ import os
 
 class EmeraldConan(ConanFile):
     name = "emerald"
-    version = "0.0.5"
+    version = "0.0.6"
     license = "Apache 2.0"
     url = "https://github.com/blackencino/emerald"
     description = "Emerald Simulation Libraries"
@@ -101,7 +101,8 @@ class EmeraldConan(ConanFile):
         self.cpp_info.names["cmake_find_package_multi"] = "emerald"
         self.cpp_info.names["pkg_config"] = "emerald"
 
-        #self.cpp_info.libs = tools.collect_libs(self)
+        self.cpp_info.libs = tools.collect_libs(self)
+
 
 
 
